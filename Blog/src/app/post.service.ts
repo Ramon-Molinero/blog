@@ -10,20 +10,24 @@ export class PostService {
   constructor() {
     this.allPost = [
       {
-        titulo: 'titulo',
-        texto: 'parrafo',
+        titulo: 'Detrás del último no va nadie',
+        texto:
+          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem repellat, quibusdam labore eum deserunt reprehenderit dicta quae quos perferendis ipsum libero? Iure veritatis delectus saepe modi vitae animi assumenda perferendis?',
         autor: 'menganito',
-        imagen: 'url',
-        fecha: '',
-        categoria: '',
+        imagen:
+          'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/fa/e15e80504811e6bcaf7158d37ab7ca/LightBulb.jpg?auto=format%2Ccompress&dpr=1',
+        fecha: '24 Abril 2020',
+        categoria: 'Graphic Design',
       },
       {
-        titulo: 'titulo',
-        texto: 'parrafo',
+        titulo: 'Sing of Colors',
+        texto:
+          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem repellat, quibusdam labore eum deserunt reprehenderit dicta quae quos perferendis ipsum libero? Iure veritatis delectus saepe modi vitae animi assumenda perferendis?',
         autor: 'menganito',
-        imagen: 'url',
-        fecha: '',
-        categoria: '',
+        imagen:
+          'https://www.pasku.com/wp-content/uploads/2018/09/combinacion-colores-cuadrada.png',
+        fecha: '24 Abril 2020',
+        categoria: 'Web Desing',
       },
     ];
     console.log(this.allPost);
