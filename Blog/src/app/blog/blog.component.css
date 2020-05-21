@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Rajdhani&family=Sarabun&display=swap');
+
+/*
+    *font-family: 'Abel', sans-serif;
+
+    font-family: 'Rajdhani', sans-serif;
+
+    font-family: 'Sarabun', sans-serif;
+*/
+
+
+img {
+  width: 100%;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+.alineado {
+  text-align: start;
+}
+
+.especial {
+  background-color: rgb(78, 77, 77);
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.centrado {
+  margin-top: 0 auto;
+}
+
+h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 3em;
+  color: rgb(105, 104, 104);
+
+}
+
+
+.pieArt {
+  font-size: 0.9em;
+  color: rgb(105, 104, 104);
+}
+
+div div div .borde {
+  border-bottom: 1px solid rgba(184, 184, 184, 0.76);
+  margin: 0 auto 3em auto;
+}
+
+div div div:last-child .borde {
+  border-bottom: none;
+}
+
+footer {
+  margin: 0;
+
+}
+
+footer p {
+  margin-top: 1em;
+}

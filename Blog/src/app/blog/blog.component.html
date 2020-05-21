@@ -1,1 +1,29 @@
-<p>blog works!</p>
+<div class="container p-5">
+  <h1 class="text-center ">COLABORATE WITH US</h1>
+  <button class="btn btn-block btn-info mt-4 mb-5" [routerLink]="['/new']" routerLinkActive="router-link-active">
+    CREATE POST</button>
+  <div class="row">
+    <div class="col-12" *ngFor="let post of allPost">
+      <div class="row centrado mt-2 text-secondary borde">
+        <div class="col-12 col-lg-4 col-md-12 col-sm-12 ">
+          <img [src]="post.imagen" alt="">
+        </div>
+        <div class="col-12 col-lg-8 col-md-12 col-sm-12">
+          <h4 class="text-dark">{{post.titulo}}</h4>
+          <p>{{post.texto}}</p>
+          <p class="pieArt">Autor: {{post.autor}}</p>
+          <div class="row d-flex justify-content-between p-3 alineado mb-2">
+            <h6 class="pieArt">Categoria: {{post.categoria}}</h6>
+            <h6 class="pieArt">{{post.fecha}}</h6>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<footer class=" text-center bg-light p-2">
+  <p>Lamentables.sl - Especialistas en penurias &copy;</p>
+</footer>
