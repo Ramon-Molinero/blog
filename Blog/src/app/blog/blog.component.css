@@ -47,7 +47,7 @@ h1 {
 
 div div div .borde {
   border-bottom: 1px solid rgba(184, 184, 184, 0.76);
-  margin: 0 auto 3em auto;
+  margin: 0 auto 2em auto;
 }
 
 div div div:last-child .borde {
