@@ -1,14 +1,21 @@
-<div class="container p-5">
-  <h1 class="text-center ">COLABORATE WITH US</h1>
-  <button class="btn btn-block btn-info mt-4 mb-5" [routerLink]="['/new']" routerLinkActive="router-link-active">
+<div class="container-fluid pl-5 pr-5">
+  <h1 class="text-center mt-5">COLABORATE WITH US</h1>
+  <button class="btn btn-block btn-info mt-4 mb-2" [routerLink]="['/new']">
     CREATE POST</button>
+  <select (change)="filtrar()" name="" id="selector" class="custom-select form-control mb-5">
+    <option value="">Select by Category</option>
+    <option value="Web">Web Desing</option>
+    <option value="UI/UX">UI/UX Design</option>
+    <option value="Graphic">Graphic Design</option>
+    <option value="Interior">Interior Design</option>
+  </select>
   <div class="row">
     <div class="col-12" *ngFor="let post of allPost">
       <div class="row centrado mt-2 text-secondary borde">
-        <div class="col-12 col-lg-4 col-md-12 col-sm-12 ">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-md-3">
           <img [src]="post.imagen" alt="">
         </div>
-        <div class="col-12 col-lg-8 col-md-12 col-sm-12">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-9 ">
           <h4 class="text-dark">{{post.titulo}}</h4>
           <p>{{post.texto}}</p>
           <p class="pieArt">Autor: {{post.autor}}</p>
@@ -25,5 +32,5 @@
   </div>
 </div>
 <footer class=" text-center bg-light p-2">
-  <p>Lamentables.sl - Especialistas en penurias &copy;</p>
+  <p>BootGump.sl - Especialistas en penurias 2020 &copy;</p>
 </footer>
