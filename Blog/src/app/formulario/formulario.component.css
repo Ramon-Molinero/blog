@@ -1,0 +1,30 @@
+h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 3em;
+  color: rgb(105, 104, 104);
+
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid rgb(216, 91, 91);
+
+}
+
+
+textarea.ng-invalid.ng-touched {
+  border: 1px solid rgb(216, 91, 91);
+
+}
+
+.error {
+  color: rgb(216, 91, 91);
+}
+
+footer {
+  margin: 0;
+
+}
+
+footer p {
+  margin-top: 1em;
+}
